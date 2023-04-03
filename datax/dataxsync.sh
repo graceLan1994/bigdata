@@ -26,9 +26,9 @@ PATH_HIVE="/warehouse/tablespace/managed/hive/"
 # "/user/hive/warehouse/"
 MYSQL_URL=""
 #数据库用户名
-MYSQL_USERNAME="root"
+MYSQL_USERNAME="xxxx"
 #数据库密码
-MYSQL_PASSWD="Ndsc@lan2023"
+MYSQL_PASSWD="xxxx"
 #默认同步目标库名
 TARGET_DB_NAME="persona"
 #同步源库名
@@ -51,9 +51,9 @@ declare -A db_instance_maps
 function initInstanceConf()
 {   
         # 主业务线 ywx1
-        db_instance_conf["db_main_data"]="jdbc:mysql://ndsc101:3306/"
-        db_instance_user_conf["db_main_data"]="root"
-        db_instance_pwd_conf["db_main_data"]="Ndsc@lan2023"
+        db_instance_conf["db_main_data"]="jdbc:mysql:/xxx:3306/"
+        db_instance_user_conf["db_main_data"]="xxxx"
+        db_instance_pwd_conf["db_main_data"]="xxxx"
          # 业务线2 ywx2
         # db_instance_conf["db_data"]="jdbc:mysql://192.168.1.2:3306/"
         # db_instance_user_conf["db_data"]="admin"
